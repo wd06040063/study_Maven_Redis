@@ -1,3 +1,6 @@
+package com.Wang.Demo;
+
+import com.Wang.Util.RedisPoolUtil;
 import org.junit.Test;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisSentinelPool;
@@ -18,12 +21,11 @@ public class RedisDemo {
     @Test
     public void t1(){
         //get connect
-        Jedis jedis = new Jedis("127.0.0.1",6379);
-        jedis.auth("root");
+        Jedis jedis = RedisPoolUtil.getJedis();
         jedis.set("strName","字符串的名称");
         String strName = jedis.get("strName");
         System.out.printf("Redis的数据:"+strName);
-        jedis.close();
+        RedisPoolUtil.close(jedis);
     }
     @Test
     public void t2(){
@@ -58,6 +60,13 @@ public class RedisDemo {
         }
 
     }
+    /**
+     * Jedis 完成对Hash类型操作
+     * 需求：hash存储一个对象
+     * 判断Redis中是否存在该key，如果存在，直接返回对应值
+     * 如果不存在，查询数据库，（将查询的结果存入redis）并返回给用户
+     */
+
 
 
 }
