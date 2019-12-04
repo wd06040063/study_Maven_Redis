@@ -20,9 +20,9 @@ public class RedisDemo {
         //get connect
         Jedis jedis = new Jedis("127.0.0.1",6379);
         jedis.auth("root");
-        jedis.set("strName","String name");
+        jedis.set("strName","字符串的名称");
         String strName = jedis.get("strName");
-        System.out.printf("Redis data:"+strName);
+        System.out.printf("Redis的数据:"+strName);
         jedis.close();
     }
     @Test
@@ -41,6 +41,22 @@ public class RedisDemo {
             System.out.printf("Mysql database check result:"+result);
         }
     jedis.close();
+    }
+    @Test
+    public void t3(){
+        //获得链接
+        Jedis jedis = new Jedis("127.0.0.1",6379);
+        jedis.auth("root");
+        String key = "applicationName";
+        if(jedis.exists(key)){
+            String result = jedis.get(key);
+            System.out.printf("Redis数据库中查询得到的："+result);
+        }else{
+            String result = "微信开发会议达人";
+            jedis.set(key,result);
+            System.out.printf("从MySQL数据库中查询得到的："+result);
+        }
+
     }
 
 
