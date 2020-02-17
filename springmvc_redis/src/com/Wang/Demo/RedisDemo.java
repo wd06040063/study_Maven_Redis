@@ -49,10 +49,12 @@ public class RedisDemo {
         //获得链接
         Jedis jedis = new Jedis("127.0.0.1",6379);
         jedis.auth("root");
-        String key = "applicationName";
+        String key = "code:18841745022";
         if(jedis.exists(key)){
+
             String result = jedis.get(key);
-            System.out.printf("Redis数据库中查询得到的："+result);
+            System.out.printf("Redis数据库中查询得到的验证码："+result);
+
         }else{
             String result = "微信开发会议达人";
             jedis.set(key,result);
