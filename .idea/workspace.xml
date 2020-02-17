@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69c4dbed-3649-4bf6-9be8-47cc9e2bb800" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_redis/src/com/Wang/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_json/maven_json.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/springmvc_redis/RedisDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_redis/src/com/Wang/Demo/RedisDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_redis/src/com/Wang/Demo/RedisDemo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="@Wangdong" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="moduleName" value="springmvc_redis" />
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
+        </Entry>
+      </list>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/java/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="/usr/local/java/apache-maven-3.6.2/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1U8wuxAn7G1871tnn2j033Vr9ig" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
+    <property name="last_opened_file_path" value="$USER_HOME$/文档/commons-pool2-2.0.jar!/" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.20297396" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn validate" />
+      <command value="mvn MavenDemo" />
+      <command value="mvn compile" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RedisDemo.t3">
+    <configuration name="RedisDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Wang.Demo.RedisDemo" />
+      <module name="springmvc_redis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisDemo.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springmvc_redis" />
+      <option name="PACKAGE_NAME" value="com.Wang.Demo" />
+      <option name="MAIN_CLASS_NAME" value="com.Wang.Demo.RedisDemo" />
+      <option name="METHOD_NAME" value="t1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisDemo.t2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springmvc_redis" />
+      <option name="PACKAGE_NAME" value="com.Wang.Demo" />
+      <option name="MAIN_CLASS_NAME" value="com.Wang.Demo.RedisDemo" />
+      <option name="METHOD_NAME" value="t2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisDemo.t3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springmvc_redis" />
+      <option name="PACKAGE_NAME" value="com.Wang.Demo" />
+      <option name="MAIN_CLASS_NAME" value="com.Wang.Demo.RedisDemo" />
+      <option name="METHOD_NAME" value="t3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="json1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MavenDemo/maven_json/src/main/webapp/json1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RedisDemo.t3" />
+        <item itemvalue="JUnit.RedisDemo.t1" />
+        <item itemvalue="Application.RedisDemo" />
+        <item itemvalue="JUnit.RedisDemo.t2" />
+        <item itemvalue="JavaScript Debug.json1.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69c4dbed-3649-4bf6-9be8-47cc9e2bb800" name="Default Changelist" comment="" />
+      <created>1574751756659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574751756659</updated>
+      <workItem from="1574751758109" duration="3564000" />
+      <workItem from="1574767687284" duration="1424000" />
+      <workItem from="1574937823516" duration="125000" />
+      <workItem from="1574937968683" duration="590000" />
+      <workItem from="1574938578946" duration="335000" />
+      <workItem from="1574938932418" duration="650000" />
+      <workItem from="1574939623596" duration="1967000" />
+      <workItem from="1574941612015" duration="1149000" />
+      <workItem from="1574942780013" duration="62000" />
+      <workItem from="1574942909862" duration="84000" />
+      <workItem from="1574943013047" duration="3155000" />
+      <workItem from="1575204335191" duration="237000" />
+      <workItem from="1575453337145" duration="9157000" />
+      <workItem from="1575542587544" duration="1707000" />
+      <workItem from="1579440289616" duration="102000" />
+      <workItem from="1579440431033" duration="824000" />
+      <workItem from="1579441385472" duration="357000" />
+      <workItem from="1579441855152" duration="2688000" />
+      <workItem from="1579444566973" duration="27000" />
+      <workItem from="1580651714588" duration="40000" />
+      <workItem from="1580651773927" duration="67000" />
+      <workItem from="1580651859035" duration="63000" />
+      <workItem from="1580651942768" duration="34000" />
+      <workItem from="1581817084520" duration="27000" />
+      <workItem from="1581941907198" duration="718000" />
+    </task>
+    <task id="LOCAL-00001" summary="Maven+redis Demo">
+      <created>1574944696668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574944696668</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Maven+redis Demo">
+      <created>1575456341325</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575456341325</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Maven+redis Demo">
+      <created>1575461110699</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575461110699</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Maven+redis Demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maven+redis Demo" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="93" width="1430" height="924" key="CommitChangelistDialog2" timestamp="1581942637380">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="240" y="93" width="1430" height="924" key="CommitChangelistDialog2/0.28.1920.1052@0.28.1920.1052" timestamp="1581942637380" />
+    <state x="355" y="162" width="1200" height="786" key="Vcs.Push.Dialog.v2" timestamp="1581942674691">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="355" y="162" width="1200" height="786" key="Vcs.Push.Dialog.v2/0.28.1920.1052@0.28.1920.1052" timestamp="1581942674691" />
+  </component>
+</project>
