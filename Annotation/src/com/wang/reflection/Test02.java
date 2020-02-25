@@ -14,6 +14,9 @@ public class Test02 {
         //方式二：通过forname获得
         Class c2 = Class.forName("com.wang.reflection.Student");
         System.out.println("hash值为："+c2.hashCode());
+        //方式三：通过类名.class获得
+        Class c3 = Student.class;
+        System.out.println(c3.hashCode());
         Person person1 = new Teacher();
         System.out.println("这个人是"+person1.name);
     }
