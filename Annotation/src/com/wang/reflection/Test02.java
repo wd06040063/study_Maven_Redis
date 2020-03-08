@@ -17,6 +17,12 @@ public class Test02 {
         //方式三：通过类名.class获得
         Class c3 = Student.class;
         System.out.println(c3.hashCode());
+        //方式四：基本内置类型的包装类都有一个Type属性
+        Class c4 = Integer.TYPE;
+
+        //获得父类类型
+        Class c5 = c1.getSuperclass();
+
         Person person1 = new Teacher();
         System.out.println("这个人是"+person1.name);
     }
